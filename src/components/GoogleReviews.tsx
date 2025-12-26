@@ -3,28 +3,28 @@ import Image from "next/image";
 export default function GoogleReviews() {
   const reviews = [
     {
-      name: "RAGE GOD",
-      initials: "RG",
+      name: "Sushma Chandorkar",
+      initials: "SC",
       date: "4 months ago",
-      review: "Really happy with my experience here. I got my braces done by Dr. Pooja and she did a great job. Everything was explained clearly, the process went smoothly, and I’m very satisfied with the results. Highly recommend!"
+      review: "All the concerns were addressed perfectly. Proper step by step measures were taken to achieve the final result. Dr. Sagar is perfectionist, he will make sure you have natural looking tooth that makes you smile confidently. The whole process was painless and comfortable."
     },
     {
-      name: "Nisha Sharma",
-      initials: "NS",
-      date: "6 months ago",
-      review: "I came from Gurgaon to Orovac Dental care in Malviya Nagar, Jaipur near the airport for a root canal and wisdom tooth extraction. Both procedures were completely painless! Dr. Pooja is truly one of Jaipur’s finest dentists. Highly recommend!"
+      name: "Prathamesh Mandavkar",
+      initials: "PM",
+      date: "1 months ago",
+      review: "Fabulous experience at Smile Dental Hospital.. Dr. Sagar is the best cosmetic dentist. Clinic is very nice with modern & advance technology. Fully painless full mouth dental treatment. Highly recommended. Thanks Dr. Sagar & Smile Staff.. all the best 👍"
     },
     {
-      name: "Vijay kumari",
-      initials: "Vk",
+      name: "Rashika Bait",
+      initials: "RB",
       date: "8 months ago",
-      review: "She is super talented doctor.. she is one among top notch dental surgeon who never compromise with quality and certainly we get highly sterilized and esthetics driven treatment.. clinic runs on international standards so is her foundation for clinic is laid upon. We see a rush of international patients over there who gets ultimately satisfied treatment and fine reviews."
+      review: "Root canal, scalling, filling and capping done very nicely. I like Dr Sagar's work and he is very expert and confidant dentist. Clinic is very nice and hygienic. I am very happy for my full mouth dental treatment. Thanks. Highly recommended"
     },
     {
-      name: "ATUL PANCHARIYA",
-      initials: "AP",
+      name: "Sunita Chavan",
+      initials: "SC",
       date: "6 months ago",
-      review: "Had a completely painless tooth extraction at Orovac Oral Care, Malviya Nagar. I didn’t even feel the needle prick! Such a comfortable and homely experience with Dr. Pooja. Thank you doctor."
+      review: "My 1st ever visit to a dentist and definitely not a last one. I am very grateful … for my dental treatment. … We have a very caring, professional and a friendly team. I would strongly recommend Smile Dental Hospital"
     }
   ];
 

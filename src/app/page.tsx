@@ -11,6 +11,7 @@ import CTABox from "@/components/CTABox";
 import GoogleReviews from "@/components/GoogleReviews";
 import VideoTestimonial from "@/components/VideoTestimonial";
 import DoctorProfile from "@/components/DoctorProfile";
+import CelebrityGallery from "@/components/CelebrityGallery";
 import ClinicPhotos from "@/components/ClinicPhotos";
 import FAQSection from "@/components/FAQSection";
 import Footer from "@/components/Footer";
@@ -103,13 +104,14 @@ export default function Home() {
       <div className="relative z-10">
         <Header onBookAppointment={openPopup} />
         <HeroSection onBookAppointment={openPopup} />
-      
+
         <ImplantTypes />
         <BeforeAfterGallery onBookAppointment={openPopup} />
         <CTABox onBookAppointment={openPopup} />
         <GoogleReviews />
         <VideoTestimonial />
         <DoctorProfile onBookAppointment={openPopup} />
+        <CelebrityGallery />
         <ClinicPhotos onBookAppointment={openPopup} />
         <FAQSection />
         <Footer />
@@ -117,11 +119,11 @@ export default function Home() {
 
       {/* Interactive Components */}
       <StickyCTA isVisible={showStickyCta} onBookAppointment={openPopup} />
-      <PopupForm 
-        isOpen={showPopup} 
-        onClose={closePopup} 
-        minutes={minutes} 
-        seconds={seconds} 
+      <PopupForm
+        isOpen={showPopup}
+        onClose={closePopup}
+        minutes={minutes}
+        seconds={seconds}
       />
     </div>
   );

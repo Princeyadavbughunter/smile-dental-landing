@@ -21,12 +21,12 @@ export default function TransformingSmiles({ onBookAppointment }: TransformingSm
               <div className="flex flex-col items-center">
                 <div className="bg-white rounded-xl p-2 w-full">
                   <div className="relative w-full min-h-[160px] md:min-h-[192px] max-h-[400px]">
-                    <Image 
-                  src={`/images/results/${i}before.png`} 
-                  alt={`Before Smile ${i}`} 
+                    <Image
+                      src={`/images/results/${i}before.png`}
+                      alt={`Before Smile ${i}`}
                       fill
                       className="object-contain rounded-lg"
-                />
+                    />
                   </div>
                 </div>
                 <span className="text-sm mt-2 text-gray-600 font-medium">Before</span>
@@ -34,12 +34,12 @@ export default function TransformingSmiles({ onBookAppointment }: TransformingSm
               <div className="flex flex-col items-center">
                 <div className="bg-white rounded-xl p-2 w-full">
                   <div className="relative w-full min-h-[160px] md:min-h-[192px] max-h-[400px]">
-                    <Image 
-                  src={`/images/results/${i}after.png`} 
-                  alt={`After Smile ${i}`} 
+                    <Image
+                      src={`/images/results/${i}after.png`}
+                      alt={`After Smile ${i}`}
                       fill
                       className="object-contain rounded-lg"
-                />
+                    />
                   </div>
                 </div>
                 <span className="text-sm mt-2 text-gray-600 font-medium">After</span>
@@ -57,8 +57,8 @@ export default function TransformingSmiles({ onBookAppointment }: TransformingSm
       <div className="max-w-3xl mx-auto">
         <div>
           <div className="bg-gray-200 rounded-xl overflow-hidden mb-4 relative" style={{ paddingBottom: '133.33%' }}>
-            <video 
-              src="/videos/2.mp4" 
+            <video
+              src="/videos/2.mp4"
               controls
               className="absolute inset-0 w-full h-full object-cover"
               poster="/videos/1-thumbnail.jpg"
@@ -66,7 +66,7 @@ export default function TransformingSmiles({ onBookAppointment }: TransformingSm
               Your browser does not support the video tag.
             </video>
           </div>
-          <button onClick={onBookAppointment} className="bg-[#ca9c4f] text-white py-3 px-6 rounded-lg font-bold w-full mb-2">
+          <button onClick={onBookAppointment} className="bg-brandBlue text-white py-3 px-6 rounded-lg font-bold w-full mb-2">
             Request a Call back ➤
           </button>
           <small className="block text-center text-gray-600">

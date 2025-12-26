@@ -14,11 +14,11 @@ export default function ClinicPhotos({ onBookAppointment }: ClinicPhotosProps) {
         {[1, 2, 3, 4].map((i) => (
           <div key={i} className="bg-gray-200 rounded-lg h-48 sm:h-64 md:h-80 lg:h-96 flex items-center justify-center overflow-hidden relative shadow-md hover:shadow-xl transition-shadow">
             {i <= 4 ? (
-              <Image 
-                src={`/images/clinic/${i}.jpg`} 
-                alt={`Clinic Photo ${i}`} 
+              <Image
+                src={`/images/clinic/${i}.jpeg`}
+                alt={`Clinic Photo ${i}`}
                 fill
-                className="object-cover" 
+                className="object-cover"
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 priority={i <= 2}
               />
@@ -28,9 +28,9 @@ export default function ClinicPhotos({ onBookAppointment }: ClinicPhotosProps) {
           </div>
         ))}
       </div>
-      <button onClick={onBookAppointment} className="bg-darkGreen text-white py-3 px-6 rounded-lg font-bold w-full md:max-w-md mx-auto block 
-      hover:text-black
-      hover:bg-yellow-300 transition-colors">
+      <button onClick={onBookAppointment} className="bg-brandBlue text-white py-3 px-6 rounded-lg font-bold w-full md:max-w-md mx-auto block 
+      hover:text-white
+      hover:opacity-90 transition-colors">
         BOOK APPOINTMENT
       </button>
     </section>

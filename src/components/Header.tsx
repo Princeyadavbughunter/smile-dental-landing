@@ -10,27 +10,28 @@ export default function Header({ onBookAppointment }: HeaderProps) {
       <div className="text-center max-w-6xl mx-auto md:flex md:items-center md:justify-between md:text-left">
         <div className="md:flex md:items-center md:gap-8">
           <Image
-            src="/images/orovac-logo-svg-1 (1).svg"
+            src="/images/smilelogo.png"
             alt="Veda Dentistry Logo"
             width={192}
             height={48}
             className="h-auto mx-auto mb-4 md:mb-0 md:mx-0"
           />
           <a
-            href="https://maps.app.goo.gl/4PZ4Fr8gUWvcYs1Y6"
+            href="https://maps.app.goo.gl/1a1CNYzDErxs7kid8"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sm text-gray-700 mb-4 md:mb-0 hover:text-[#ca9c4f] transition-colors cursor-pointer block"
+            className="text-sm text-gray-700 mb-4 md:mb-0 hover:text-[#01659e] transition-colors cursor-pointer block"
           >
-            📍 7/320, opp. EHCC Hospital, near Jawahar Circle, Sector 7, Malviya Nagar, Jaipur, Rajasthan 302017
+            📍 Smile Dental Hospital
+            Mukti Nagar, Acharya Marg, Beside Unique Restaurant, Ghatla, Chembur East, Mumbai – 400071
           </a>
         </div>
         <div className="flex flex-col sm:flex-row gap-3 justify-center md:gap-4">
-          <button onClick={onBookAppointment} className="bg-[rgb(55,81,82)] text-white px-6 py-3 rounded-lg font-bold hover:bg-[rgb(55,81,82)] transition-colors">
+          <button onClick={onBookAppointment} className="bg-brandBlue text-white px-6 py-3 rounded-lg font-bold hover:opacity-90 transition-colors">
             BOOK APPOINTMENT
           </button>
-          <a href="tel:+919828079898" className="bg-[rgb(205,159,82)]
- text-black px-6 py-3 rounded-lg font-bold hover:bg-[rgb(205,159,82)] transition-colors text-center">
+          <a href="tel:+918830910757" className="bg-brandBlue
+ text-white px-6 py-3 rounded-lg font-bold hover:opacity-90 transition-colors text-center">
             CALL NOW ☏
           </a>
         </div>

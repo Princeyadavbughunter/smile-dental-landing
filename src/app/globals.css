@@ -463,7 +463,7 @@ select:focus {
   appearance: none;
   width: 20px;
   height: 20px;
-  background: #ca9c4f;
+  background: #01659e;
   border: 2px solid white;
   border-radius: 50%;
   cursor: pointer;
@@ -473,7 +473,7 @@ select:focus {
 .sliderimg .slider::-moz-range-thumb {
   width: 20px;
   height: 20px;
-  background: #ca9c4f;
+  background: #01659e;
   border: 2px solid white;
   border-radius: 50%;
   cursor: pointer;

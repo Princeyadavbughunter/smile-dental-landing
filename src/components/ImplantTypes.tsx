@@ -50,11 +50,11 @@ export default function ImplantTypes() {
   return (
     <section className="bg-black text-white p-4 md:p-8 lg:p-12 pb-16">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-2xl md:text-4xl font-bold text-center text-[#ca9c4f] mb-4">
-          When it comes to Dental Implants, choose <em>Orovac Dental Care</em>
+        <h2 className="text-2xl md:text-4xl font-bold text-center text-[#01659e] mb-4">
+          When it comes to Dental Implants, choose <em>Smile Dental Hospital</em>
         </h2>
         <p className="text-center text-gray-300 mb-8 md:text-lg max-w-3xl mx-auto">
-          At Orovac Dental Care Dental Clinic, we pride ourselves on bringing together the finest dental specialists under one roof.
+          At Smile Dental Hospital, we pride ourselves on bringing together the finest dental specialists under one roof.
         </p>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -68,7 +68,7 @@ export default function ImplantTypes() {
               <ul className="space-y-1">
                 {implant.benefits.map((benefit, i) => (
                   <li key={i} className="flex items-start gap-2">
-                    <span className="text-[#ca9c4f]">✓</span>
+                    <span className="text-[#01659e]">✓</span>
                     <span className="text-sm md:text-base">{benefit}</span>
                   </li>
                 ))}

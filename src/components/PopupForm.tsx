@@ -28,8 +28,7 @@ export default function PopupForm({ isOpen, onClose, minutes, seconds }: PopupFo
 
     console.log("Form Data to send:", data);
 
-    const scriptURL = "https://script.google.com/macros/s/AKfycbxkf3UJpRmHFYdhBlNP1zReLEqnxaT4WuoTiSZiLYe1BuJFxs1aoVWKIolT6bA8TvDjCQ/exec";
-
+    const scriptURL = ""; // Your Apps Script URL here
     try {
       const response = await fetch(scriptURL, {
         method: "POST",
@@ -74,15 +73,15 @@ export default function PopupForm({ isOpen, onClose, minutes, seconds }: PopupFo
       <div className="bg-white rounded-lg p-6 w-full max-w-xl max-h-[90vh] overflow-y-auto">
         {/* Header */}
         <div className="flex justify-between items-center mb-4">
-          <h2 className="text-xl md:text-2xl font-bold text-[#ca9c4f]">Book Your Appointment</h2>
+          <h2 className="text-xl md:text-2xl font-bold text-[#01659e]">Book Your Appointment</h2>
           <button onClick={onClose} className="text-gray-500 hover:text-gray-700 text-2xl">&times;</button>
         </div>
 
         {/* Offer info */}
-        <div className="bg-gray-50 p-3 md:p-4 rounded-lg mb-4 border-l-4 border-[#ca9c4f]">
+        <div className="bg-gray-50 p-3 md:p-4 rounded-lg mb-4 border-l-4 border-[#01659e]">
           <p className="text-sm md:text-base text-gray-700 text-center">
             <strong>Includes:</strong> Professional Consultation & Digital Scan
-            <span className="text-[#ca9c4f] font-bold"> with Our Certified Implantologist</span>
+            <span className="text-[#01659e] font-bold"> with Our Certified Implantologist</span>
           </p>
         </div>
 
@@ -140,12 +139,12 @@ export default function PopupForm({ isOpen, onClose, minutes, seconds }: PopupFo
 
           <button
             type="submit"
-            className="w-full bg-[#ca9c4f] text-white py-3 md:py-4 rounded-lg font-bold text-lg hover:bg-[#b8904a] transition-colors"
+            className="w-full bg-brandBlue text-white py-3 md:py-4 rounded-lg font-bold text-lg hover:opacity-90 transition-colors"
           >
             Book Appointment
           </button>
         </form>
-        
+
       </div>
     </div>
   );
