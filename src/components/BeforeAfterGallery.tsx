@@ -6,10 +6,22 @@ interface BeforeAfterGalleryProps {
 
 export default function BeforeAfterGallery({ onBookAppointment }: BeforeAfterGalleryProps) {
   const videos = [
-    '/img/before-after/Digital dentistry_Intra oral scan.mp4',
-    '/img/before-after/Invisible braces 1.mp4',
-    '/img/before-after/Invisible braces 2.mp4',
-    '/img/before-after/Pediatric dentistry.mp4',
+    {
+      src: '/img/before-after/Digital dentistry_Intra oral scan.mp4',
+      poster: '/img/before-after/Digital dentistry in action.png'
+    },
+    {
+      src: '/img/before-after/Invisible braces 1.mp4',
+      poster: '/img/before-after/Dental crowns and bridges overview.png'
+    },
+    {
+      src: '/img/before-after/Invisible braces 2.mp4',
+      poster: '/img/before-after/Dental implant surgery in progress.png'
+    },
+    {
+      src: '/img/before-after/Pediatric dentistry.mp4',
+      poster: '/img/before-after/ChatGPT Image Dec 26, 2025, 10_47_38 AM.png'
+    },
   ];
 
   return (
@@ -27,14 +39,15 @@ export default function BeforeAfterGallery({ onBookAppointment }: BeforeAfterGal
 
         {/* Video Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 w-full mb-12">
-          {videos.map((videoSrc, index) => (
+          {videos.map((video, index) => (
             <div key={index} className="relative rounded-lg overflow-hidden shadow-lg bg-black aspect-video">
               <video
                 controls
                 className="w-full h-full object-cover"
                 preload="metadata"
+                poster={video.poster}
               >
-                <source src={videoSrc} type="video/mp4" />
+                <source src={video.src} type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>
