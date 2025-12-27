@@ -2,11 +2,11 @@ import Image from 'next/image';
 
 export default function CelebrityGallery() {
     const celebpics = [
-        '/img/celeb/3 celeb photos (11).jpeg',
-        '/img/celeb/3 celeb photos (13).jpeg',
-        '/img/celeb/3 celeb photos (15).jpeg',
-        '/img/celeb/3 celeb photos (23).jpeg',
-        '/img/celeb/3 celeb photos (5).jpeg',
+        '/img/celeb/1 celeb photos (1).jpeg',
+        '/img/celeb/1 celeb photos (5).jpeg',
+        '/img/celeb/1 celeb photos (6).jpeg',
+        '/img/celeb/1 celeb photos (8).jpeg',
+        '/img/celeb/3 celeb photos (20).jpeg',
         '/img/celeb/3 celeb photos (8).jpeg',
     ];
 
@@ -27,7 +27,7 @@ export default function CelebrityGallery() {
                                 src={src}
                                 alt={`Celebrity Visit ${index + 1}`}
                                 fill
-                                className="object-cover transition-transform duration-500 group-hover:scale-105"
+                                className="object-contain md:object-cover transition-transform duration-500 group-hover:scale-105"
                                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                             />
                         </div>

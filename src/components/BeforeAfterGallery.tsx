@@ -40,10 +40,10 @@ export default function BeforeAfterGallery({ onBookAppointment }: BeforeAfterGal
         {/* Video Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 w-full mb-12">
           {videos.map((video, index) => (
-            <div key={index} className="relative rounded-lg overflow-hidden shadow-lg bg-black aspect-video">
+            <div key={index} className="relative rounded-lg overflow-hidden shadow-lg bg-black">
               <video
                 controls
-                className="w-full h-full object-cover"
+                className="w-full h-auto"
                 preload="metadata"
                 poster={video.poster}
               >
