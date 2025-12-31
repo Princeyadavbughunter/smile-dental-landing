@@ -9,27 +9,27 @@ export default function VideoTestimonial() {
           </p>
         </div>
 
-        <div className="bg-white border rounded-lg p-4 md:p-6 shadow-sm hover:shadow-md transition-all duration-300">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 justify-items-center">
+        <div className="bg-white border rounded-lg p-0 md:p-6 shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-0 md:gap-4 justify-items-center">
             <img
               src="/images/patent1.jpeg"
               alt="Testimonial 1"
-              className="w-full h-64 object-cover rounded-lg shadow-md"
+              className="w-full h-auto object-cover md:rounded-lg md:shadow-md"
             />
             <img
-              src="/images/patent2.jpeg"
+              src="/images/Patient photos 5.jpeg"
               alt="Testimonial 2"
-              className="w-full h-64 object-cover rounded-lg shadow-md"
+              className="w-full h-auto object-cover md:rounded-lg md:shadow-md"
             />
             <img
               src="/images/patent3.jpeg"
               alt="Testimonial 3"
-              className="w-full h-64 object-cover rounded-lg shadow-md"
+              className="w-full h-auto object-cover md:rounded-lg md:shadow-md"
             />
             <img
-              src="/images/patent4.jpeg"
+              src="/images/Patient photos 6.jpeg"
               alt="Testimonial 4"
-              className="w-full h-64 object-cover rounded-lg shadow-md"
+              className="w-full h-auto object-cover md:rounded-lg md:shadow-md"
             />
           </div>
         </div>
