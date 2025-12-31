@@ -10,7 +10,7 @@ export default function VideoTestimonial() {
         </div>
 
         <div className="bg-white border rounded-lg p-0 md:p-6 shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-0 md:gap-4 justify-items-center">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2 md:gap-4 justify-items-center">
             <img
               src="/images/patent1.jpeg"
               alt="Testimonial 1"
